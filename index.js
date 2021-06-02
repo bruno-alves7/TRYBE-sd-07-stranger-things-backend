@@ -14,6 +14,7 @@ const { UPSIDEDOWN_MODE } = process.env;
 const strangerThingsRepository = new StrangerThingsRepository(
   strangerThingsDataset,
 );
+
 const strangerThingsService = new StrangerThingsService(
   strangerThingsRepository,
 );
